@@ -54,21 +54,21 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
+- [x] **Server deployed and accessible with custom domain name** - [My server link](https://yourdomainnamehere.click).
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **HTML pages** - I created 5 html pages for my application.
+- [x] **Proper HTML element usage** - I used typical html elements.
+- [x] **Links** - I included links between the pages of my website.
+- [x] **Text** - The application's textual content is there.
+- [x] **3rd party API placeholder** - The image in index.html is a placeholder for the background generating API I intend to use.
+- [x] **Images** - I included an image or two.
+- [x] **Login placeholder** - I added a textbox and submit button on the login page.
+- [x] **DB data placeholder** - I have a table as a placeholder for DB data in scores.
+- [x] **WebSocket placeholder** - I have placeholders for gameplay elements on the play page.
 
 ## 🚀 CSS deliverable
 
