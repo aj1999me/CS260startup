@@ -5,7 +5,37 @@ h1 {
     text-align: center;
 }
 
+h1:hover {
+    cursor: default;
+}
+
 div {
     font-family: 'Times New Roman', Times, serif;
     color: #ff0000
+}
+
+ul {
+    padding: 0;
+    border: 0;
+    list-style-type: none;
+}
+
+li a {
+    padding: 10px 20px;
+    display: block;
+    background-color: #ff00c3;
+    float: left;
+    text-decoration: none;
+}
+
+#login {
+    text-align: right;
+}
+
+li a:hover {
+    color: #00ff00;
+}
+
+main {
+    background-color: #eeeeee;
 }
