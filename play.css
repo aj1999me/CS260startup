@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("https://startup.ajscs260.com/fonts/Pacifico-Regular.ttf");
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding-bottom: 0;
+    margin: 0;
+    margin-right: 20px;
+}
+
+@media (max-height: 500px) {
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
+
+.img {
+    z-index: 0;
+}
+
+.imgWrapper {
+    height: 50px;
+    width: 100vw;
+    overflow: hidden;
+    object-position: center;
+    border-radius: 10px;
+}
+
+nav {
+    display: block;
+    height: 42px;
+    background-color: #dddddd;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li a {
+    color: #000000;
+    padding: 10px 20px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: #350636;
+    background-color: #d880a9;;
+}
+
+li a:active {
+    border: 2px;
+    border-color: black;
+}
+
+.login {
+    display: block;
+    float: right;
+}
+
+#backgroundWrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    object-position: center;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+}
+
+footer {
+    background-color: #dddddd;
+    padding: 0;
+    border-radius: 10px;
+}
+
+div.source {
+    text-align: center;
+}
+
+a.source {
+    text-decoration: none;
+    font-family: "Pacifico";
+    color: #000000;
+}
+

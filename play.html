@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <title>Mind: Room 1</title>
+    <head>
+        <link rel="stylesheet" href="play.css">
+    </head>
+    <title>Mind: Time to Play!</title>
     <body>
         <header>
+            <div class="imgWrapper">
+                <img class="img" src="stars.jpg" width="1500">
+            </div>
             <nav>
-                <div><a href="index.html">Home</a></div>
-                <div><a href="play.html">Play</a></div>
-                <div><a href="about.html">About</a></div>
-                <div><a href="scores.html">Scores</a></div>
-                <div>Logged in as <strong>username</strong></div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="play.html">Play</a></li>
+                    <li><a href="scores.html">Scores</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="login"><a href="index.html">Log in</a></li>
+                </ul>
             </nav>
         </header>
+        <div id="backgroundWrapper">
+            <img id="background" src="stars.jpg" width="1500">
+        </div>
         <main>
+            
             <div>This is a card</div>
             <div>This is also a card</div>
             <button>Click to play card</button>
         </main>
         <footer>
-            <div>
+            <div class="source">
                 <a class="source" href="source.html">Source Code</a>
             </div>
         </footer>
