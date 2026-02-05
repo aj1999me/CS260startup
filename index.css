@@ -7,32 +7,50 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+header {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.img {
+    z-index: 0;
+}
+
+.imgWrapper {
+    height: 15vw;
+    width: 100vw;
+    overflow: hidden;
+    object-position: center;
+    border-radius: 10px;
+}
+
 h1 {
     /* box sizing and positioning */
     margin: 0;
+    padding: 0;
     width: 100%;
     position: absolute;
     border: 0;
-    top: 60px;
+    top: calc(15vw / 2 - 10vw / 3);
     left: 0;
     z-index: 1;
     /* text parameters */
     text-align: center;
-    font-size: 80px;
     color: #d880a9;
     font-family: "Pacifico";
-}
-
-nav {
-    display: block;
-    height: 55px;
-    background-color: #dddddd;
-    padding-bottom: 0;
-    border-radius: 10px;
+    font-size: 5vw;
 }
 
 h1:hover {
     cursor: default;
+}
+
+nav {
+    display: block;
+    height: 42px;
+    background-color: #dddddd;
+    padding-bottom: 0;
+    border-radius: 10px;
 }
 
 ul {
@@ -48,18 +66,7 @@ li a {
     float: left;
     text-decoration: none;
     border-radius: 10px;
-    font-size: 30px;
-}
-
-.login {
-    display: block;
-    float: right;
-    font-size: 30px;
-    padding: 10px 20px;
-}
-
-.login:hover {
-    cursor: default;
+    font-size: 20px;
 }
 
 li a:hover {
@@ -67,32 +74,46 @@ li a:hover {
     background-color: #d880a9;;
 }
 
+li a:active {
+    border: 2px;
+    border-color: black;
+}
+
+.login {
+    display: block;
+    float: right;
+}
+
+.login:hover {
+    cursor: default;
+}
+
 main {
-    background-color: #eeeeee;
+    margin: 0;
+        background-color: #eeeeee;
+}
+
+h2 {
+    margin: 0;
+    padding: 100px;
+    display: block;
+    text-align: center;
+    font-size: 3em;
 }
 
 footer {
     background-color: #dddddd;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 0;
+    border-radius: 10px;
 }
 
 div.source {
-    padding-left: 20px;
+    text-align: center;
 }
 
 a.source {
     text-decoration: none;
+    font-family: "Pacifico";
     color: #000000;
 }
 
-.TopBackground {
-    display: block;
-    z-index: 0;
-}
-
-.imgWrapper {
-    height: 200px;
-    overflow: hidden;
-    object-position: center;
-}
