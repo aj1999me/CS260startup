@@ -84,10 +84,6 @@ li a:active {
     float: right;
 }
 
-.login:hover {
-    cursor: default;
-}
-
 main {
     margin: 0;
         background-color: #eeeeee;
@@ -95,10 +91,49 @@ main {
 
 h2 {
     margin: 0;
-    padding: 100px;
+    padding: 20px;
     display: block;
     text-align: center;
-    font-size: 3em;
+    font-size: 5vw;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+}
+
+#emailWrapper {
+    text-align: center;
+}
+
+#email {
+    height: 15px;
+    width: 200px;
+}
+
+#passwordWrapper {
+    text-align: center;
+}
+
+#password {
+    height: 15px;
+    width: 200px;
+}
+
+#buttonWrapper {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 250px;
+}
+
+#loginButton {
+    background-color: #d880a9;
+    border-radius: 5px;
+}
+
+#loginButton:hover {
+    cursor: pointer;
 }
 
 footer {
