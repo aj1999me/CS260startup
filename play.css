@@ -9,8 +9,6 @@ body {
     flex-direction: column;
     margin: 0;
     height: 100vh;
-    padding: 0;
-    width: 100vw;
 }
 
 header {
@@ -29,7 +27,7 @@ header {
     }
 }
 
-.img {
+img {
     z-index: 0;
 }
 
@@ -41,12 +39,12 @@ header {
 }
 
 nav {
-    background-color: #dddddd;
     padding-bottom: 0;
     border-radius: 10px;
 }
 
 ul {
+    background-color: #dddddd;
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -77,15 +75,26 @@ li a:active {
     float: right;
 }
 
-#backgroundWrapper {
+main {
+    background: url(stars.jpg);
     flex: 1;
-    overflow: hidden;
-    object-position: center;
+}
+
+.card {
+
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    margin: 0;
+    padding: 0;
     border-radius: 10px;
+    left: +calc(50vw - 50px);
+    font-size: 10em;
+    z-index: 1;
 }
 
 footer {
-    flex: 0 50px;
+    flex: 0 28px;
     background-color: #dddddd;
     padding: 0;
     border-radius: 10px;
@@ -93,9 +102,11 @@ footer {
 
 div.source {
     text-align: center;
+    height: inherit;
 }
 
 a.source {
+    vertical-align: middle;
     text-decoration: none;
     font-family: "Pacifico";
     color: #000000;
