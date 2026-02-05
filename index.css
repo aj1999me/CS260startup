@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("https://startup.ajscs260.com/fonts/Pacifico-Regular.ttf");
+}
+
 body {
     font-family: 'Times New Roman', Times, serif;
 }
@@ -15,6 +20,7 @@ h1 {
     text-align: center;
     font-size: 80px;
     color: #d880a9;
+    font-family: "Pacifico";
 }
 
 nav {
