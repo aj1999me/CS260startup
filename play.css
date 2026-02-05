@@ -5,15 +5,22 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    width: 100vw;
 }
 
 header {
+    flex: 0 100px;
     padding-bottom: 0;
     margin: 0;
     margin-right: 20px;
 }
 
-@media (max-height: 500px) {
+@media (max-height: 700px) {
     header {
         display: none;
     }
@@ -27,16 +34,13 @@ header {
 }
 
 .imgWrapper {
-    height: 50px;
-    width: 100vw;
+    height: 100px;
     overflow: hidden;
     object-position: center;
     border-radius: 10px;
 }
 
 nav {
-    display: block;
-    height: 42px;
     background-color: #dddddd;
     padding-bottom: 0;
     border-radius: 10px;
@@ -74,18 +78,14 @@ li a:active {
 }
 
 #backgroundWrapper {
-    width: 100vw;
-    height: 100vh;
+    flex: 1;
     overflow: hidden;
     object-position: center;
     border-radius: 10px;
 }
 
-main {
-    display: flex;
-}
-
 footer {
+    flex: 0 50px;
     background-color: #dddddd;
     padding: 0;
     border-radius: 10px;
